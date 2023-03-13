@@ -1,6 +1,6 @@
 package Homework_Curs6;
 
-public class Main {
+public class PersonApplication {
     public static void main(String[] args) {
         Person person1 = new Person("Ionel", 47, false);
         Person person2 = new Person("Ayana ", 20, false);
