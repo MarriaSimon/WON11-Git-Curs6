@@ -4,13 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8a9855-53bb-49db-8397-bd468c3d9636" name="Changes" comment="first commit from InteliJ" />
+    <list default="true" id="6d8a9855-53bb-49db-8397-bd468c3d9636" name="Changes" comment="Homework course7">
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/abstractClass/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/abstractClass/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/abstractClass/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/abstractClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/abstractClass/SoloEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/inheritance/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/inheritance/BikeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/inheritance/CityBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/inheritance/MountainBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -24,24 +48,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+}</component>
+  <component name="RunManager" selected="Application.SoloEx">
+    <configuration name="AnimalsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_curs7.animals.AnimalsMain" />
       <module name="FirstInteliJProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_curs7.animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs8.inheritance.inheritance.BikeMain" />
+      <module name="FirstInteliJProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs8.inheritance.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoloEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs8.abstractClass.SoloEx" />
+      <module name="FirstInteliJProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs8.abstractClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_curs7.student.StudentMain" />
+      <module name="FirstInteliJProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_curs7.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.fasttrackit.curs8.inheritance.BikeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs8.inheritance.BikeMain" />
+      <module name="FirstInteliJProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs8.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SoloEx" />
+        <item itemvalue="Application.org.fasttrackit.curs8.inheritance.BikeMain" />
+        <item itemvalue="Application.BikeMain" />
+        <item itemvalue="Application.StudentMain" />
+        <item itemvalue="Application.AnimalsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -61,7 +148,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678124966209</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit from InteliJ">
+      <created>1678125166144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678125166144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homewrok -2nd part">
+      <created>1678713215195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678713215195</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homework course7">
+      <created>1679254885502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679254885502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,7 +186,29 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit from InteliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit from InteliJ" />
+    <MESSAGE value="Homewrok -2nd part" />
+    <MESSAGE value="Homework course7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework course7" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homework_curs7/advertising/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/fasttrackit/curs8/inheritance/BikeMain.java</url>
+          <line>5</line>
+          <properties class="org.fasttrackit.curs8.inheritance.inheritance.BikeMain" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FirstInteliJProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1678124057838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
