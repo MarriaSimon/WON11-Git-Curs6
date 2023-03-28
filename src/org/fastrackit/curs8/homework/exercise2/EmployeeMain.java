@@ -17,7 +17,7 @@ public class EmployeeMain {
         databaseAdmin.getAddress();
         databaseAdmin.getBirthday();
         databaseAdmin.dateOfEmployment();
-        ((DatabaseAdmin) databaseAdmin).setPosition();
+        ((DatabaseAdmin) databaseAdmin).getPosition();
         ((DatabaseAdmin) databaseAdmin).dbTechnology("Database expert");
 
         Person person3 = new PersonEx3("Alin", "Matesan");
