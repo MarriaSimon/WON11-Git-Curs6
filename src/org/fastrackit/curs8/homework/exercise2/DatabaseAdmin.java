@@ -6,7 +6,7 @@ import java.time.*;
 public class DatabaseAdmin extends Employee {
     public DatabaseAdmin(String getFirstName, String getLastName, String getAddress) {
         super(getFirstName, getLastName, getAddress);
-        setPosition();
+
     }
 
     @Override
@@ -25,10 +25,10 @@ public class DatabaseAdmin extends Employee {
         return employmentDate;
     }
 
-    public String setPosition() {
-       position = "db admin " + position;
+    public String getPosition() {
+        position = "db admin " + this.position();
         System.out.println("Position: " + position);
-        return super.position();
+        return position;
     }
 
     public String dbTechnology(String language) {
