@@ -20,5 +20,8 @@ public class EmployeeMain {
         ((DatabaseAdmin) databaseAdmin).setPosition();
         ((DatabaseAdmin) databaseAdmin).dbTechnology("Database expert");
 
+        Person person3 = new PersonEx3("Alin", "Matesan");
+        ((PersonEx3) person3).getFullName();
+        ((PersonEx3) person3).age();
     }
 }

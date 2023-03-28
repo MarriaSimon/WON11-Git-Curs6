@@ -16,8 +16,6 @@ public abstract class Employee implements Person {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
-        //this.position = position;
-
     }
 
     public String getFirstName() {

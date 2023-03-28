@@ -6,7 +6,6 @@ import java.time.*;
 public class Programmer extends Employee {
     public Programmer(String getFirstName, String getLastName, String getAddress) {
         super(getFirstName, getLastName, getAddress);
-        getPosition();
     }
 
     @Override
@@ -27,7 +26,7 @@ public class Programmer extends Employee {
     public String getPosition() {
         super.position = "programmer";
         System.out.println("Position: " + position);
-        return position();
+        return position;
     }
 
     public String language(String language) {
