@@ -1,4 +1,4 @@
-package org.fastrackit.curs8.homework.exercise1;
+package org.fasttrackit.curs8.homework.exercise1;
 
 public class ElectronicsImplementation extends Electronics {
     public ElectronicsImplementation(String type, int length, int width, int height, double weight) {

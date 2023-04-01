@@ -1,7 +1,6 @@
-package org.fastrackit.curs8.homework.exercise2;
+package org.fasttrackit.curs8.homework.exercise2;
 
 import java.time.LocalDate;
-import java.time.*;
 
 public class DatabaseAdmin extends Employee {
     public DatabaseAdmin(String getFirstName, String getLastName, String getAddress) {

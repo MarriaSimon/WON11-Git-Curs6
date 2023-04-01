@@ -5,49 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8a9855-53bb-49db-8397-bd468c3d9636" name="Changes" comment="Corse 8 - updated xml file &amp; sololearn">
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise3/Employeee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise3/Peerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise3/PersonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/QueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/SetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Curs6/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Homework_Curs6/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Curs6/BottleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Homework_Curs6/BottleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Curs6/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Homework_Curs6/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Curs6/PersonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Homework_Curs6/PersonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Curs6/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Homework_Curs6/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Curs6/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Homework_Curs6/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/advertising/Advertising.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/advertising/Advertising.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/advertising/AdvertisingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/advertising/AdvertisingProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/advertising/Facebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/advertising/Facebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/advertising/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/advertising/Mail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/advertising/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/advertising/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/advertising/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/advertising/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/animals/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/animals/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/animals/AnimalsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/animals/AnimalsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/animals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/animals/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/animals/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/animals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/animals/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/animals/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/animals/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/animals/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/banking/BRD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/banking/BRD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/banking/BT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/banking/BT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/banking/BankProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/banking/BankProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/banking/ING.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/banking/ING.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/banking/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/banking/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/banking/PersonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/banking/PersonMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/student/StudentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/student/StudentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_curs7/student/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/homework_curs7/student/StudentMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/FoodProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces/FoodProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/KFC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces/KFC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/McDonalds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces/McDonalds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces2/Citizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces2/Citizen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces2/Rebel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces2/Rebel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces2/Romanian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces2/Romanian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces2/RomanianWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/interfaces2/RomanianWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/staticpackage/Airplaine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/staticpackage/Airplaine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/staticpackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/staticpackage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/Cosmetics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/Cosmetics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/Electronics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/ElectronicsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/ElectronicsImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/Fridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/ProductMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/ProductMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/DatabaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/DatabaseAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/EmployeeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/EmployeeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/PersonEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/PersonEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/Programmer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +68,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.EmployeeMain">
-    <configuration name="EmployeeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fastrackit.curs8.homework.exercise2.EmployeeMain" />
+  <component name="RunManager" selected="Application.QueueExample">
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.ListExample" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fastrackit.curs8.homework.exercise2.*" />
+          <option name="PATTERN" value="org.fasttrackit.curs9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs8.abstractClass.Main" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.MapExample" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs8.abstractClass.*" />
+          <option name="PATTERN" value="org.fasttrackit.curs9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fastrackit.curs8.homework.exercise1.ProductMain" />
+    <configuration name="PersonUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs8.homework.exercise3.PersonUtil" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fastrackit.curs8.homework.exercise1.*" />
+          <option name="PATTERN" value="org.fasttrackit.curs8.homework.exercise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoloEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs8.abstractClass.SoloEx" />
+    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.QueueExample" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs8.abstractClass.*" />
+          <option name="PATTERN" value="org.fasttrackit.curs9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.fasttrackit.curs8.inheritance.BikeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs8.inheritance.BikeMain" />
+    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.SetExample" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs8.inheritance.*" />
+          <option name="PATTERN" value="org.fasttrackit.curs9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeMain" />
-        <item itemvalue="Application.ProductMain" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SoloEx" />
-        <item itemvalue="Application.org.fasttrackit.curs8.inheritance.BikeMain" />
+        <item itemvalue="Application.QueueExample" />
+        <item itemvalue="Application.SetExample" />
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.ListExample" />
+        <item itemvalue="Application.PersonUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680014718878</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Corse 8 - updated xml file &amp; sololearn">
+      <created>1680018776816</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680018776816</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +255,8 @@
     <MESSAGE value="Corse 8 - Homework ex 3 and updated some code for ex2" />
     <MESSAGE value="Corse 8 - updated code for DB Admin" />
     <MESSAGE value="Corse 8 - updated xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corse 8 - updated xml file" />
+    <MESSAGE value="Corse 8 - updated xml file &amp; sololearn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corse 8 - updated xml file &amp; sololearn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,12 +267,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/Employee.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/EmployeeMain.java</url>
+          <url>file://$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/EmployeeMain.java</url>
           <line>2</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -299,9 +281,9 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/ProductMain.java</url>
+          <url>file://$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/ProductMain.java</url>
           <line>4</line>
-          <properties class="org.fastrackit.curs8.homework.exercise1.ProductMain" method="main">
+          <properties class="org.fasttrackit.curs8.homework.exercise1.ProductMain" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
