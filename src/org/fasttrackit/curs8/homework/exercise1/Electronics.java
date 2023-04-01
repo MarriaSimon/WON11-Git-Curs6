@@ -1,4 +1,4 @@
-package org.fastrackit.curs8.homework.exercise1;
+package org.fasttrackit.curs8.homework.exercise1;
 
 public abstract class Electronics extends Product {
     @Override

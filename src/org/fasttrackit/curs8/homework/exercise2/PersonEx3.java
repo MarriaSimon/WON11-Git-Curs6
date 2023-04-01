@@ -1,10 +1,13 @@
-package org.fastrackit.curs8.homework.exercise2;
+package org.fasttrackit.curs8.homework.exercise2;
 
 import java.time.LocalDate;
-import java.time.Period;
 import java.time.temporal.ChronoUnit;
 
 public class PersonEx3 implements Person {
+    // private Person person;
+    // public PersonEx3(Person person){
+    //    this.person = person;
+    // }
     private final String firstName;
     private final String lastName;
 
@@ -37,7 +40,7 @@ public class PersonEx3 implements Person {
 
     @Override
     public LocalDate getBirthday() {
-        LocalDate birthday = LocalDate.of(1989, 3, 18);
+        LocalDate birthday = LocalDate.of(1989, 3, 29);
 
         return birthday;
     }
@@ -54,5 +57,6 @@ public class PersonEx3 implements Person {
         long years = ChronoUnit.YEARS.between(birthday, getDay);
         System.out.println("Person's age is: " + years);
         return years;
+
     }
 }

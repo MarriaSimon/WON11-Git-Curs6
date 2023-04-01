@@ -1,4 +1,4 @@
-package org.fastrackit.curs8.homework.exercise1;
+package org.fasttrackit.curs8.homework.exercise1;
 
 
 public class ProductMain {
@@ -8,8 +8,8 @@ public class ProductMain {
         System.out.println("Product description: " + cosmetics.description());
         System.out.println("Product price: " + cosmetics.price(15.99));
         System.out.print("Product quantity: " + cosmetics.quantity(3));
-        System.out.println("\nProduct weight: " + ((Cosmetics) cosmetics).weight() + "g");
-        System.out.println("Product colour: " + ((Cosmetics) cosmetics).getColour());
+        System.out.println("\nProduct weight: " + ((Cosmetics) cosmetics).weight() + "g");//hardcasting
+        System.out.println("Product colour: " + ((Cosmetics) cosmetics).getColour());//hardcasting
 
 
         Electronics electronics = new ElectronicsImplementation("biq electronics", 103,90,85,24.5);

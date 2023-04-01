@@ -1,4 +1,4 @@
-package org.fastrackit.curs8.homework.exercise1;
+package org.fasttrackit.curs8.homework.exercise1;
 
 
 public class Cosmetics extends Product {

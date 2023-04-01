@@ -1,4 +1,4 @@
-package org.fastrackit.curs8.homework.exercise2;
+package org.fasttrackit.curs8.homework.exercise2;
 
 import java.time.*;
 
