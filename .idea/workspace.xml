@@ -4,29 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8a9855-53bb-49db-8397-bd468c3d9636" name="Changes" comment="Corse 8 - updated xml file &amp; sololearn">
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise3/Employeee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise3/Peerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise3/PersonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/QueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/SetExample.java" afterDir="false" />
+    <list default="true" id="6d8a9855-53bb-49db-8397-bd468c3d9636" name="Changes" comment="Homework curs9">
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/homework_curs9/exercise1/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/homework_curs9/exercise1/BasketMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/homework_curs9/exercise2/Flowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/homework_curs9/exercise2/FlowersMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/homework_curs9/exercise3/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/homework_curs9/exercise3/CompanyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs9/homework_curs9/exercise3/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/Cosmetics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/Cosmetics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/Electronics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/ElectronicsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/ElectronicsImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/Fridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise1/ProductMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise1/ProductMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/DatabaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/DatabaseAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/EmployeeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/EmployeeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/PersonEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/PersonEx3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fastrackit/curs8/homework/exercise2/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/Programmer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,39 +54,52 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.QueueExample">
+  <component name="RunManager" selected="Application.BasketMain">
+    <configuration name="BasketMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.homework_curs9.exercise1.BasketMain" />
+      <module name="FirstInteliJProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs9.homework_curs9.exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.homework_curs9.exercise3.CompanyMain" />
+      <module name="FirstInteliJProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs9.homework_curs9.exercise3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowersMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.homework_curs9.exercise2.FlowersMain" />
+      <module name="FirstInteliJProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs9.homework_curs9.exercise2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.ListExample" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.fasttrackit.curs9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.MapExample" />
-      <module name="FirstInteliJProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs8.homework.exercise3.PersonUtil" />
-      <module name="FirstInteliJProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs8.homework.exercise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs9.SetExample" />
-      <module name="FirstInteliJProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueExample" />
-        <item itemvalue="Application.SetExample" />
-        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.BasketMain" />
+        <item itemvalue="Application.CompanyMain" />
+        <item itemvalue="Application.FlowersMain" />
         <item itemvalue="Application.ListExample" />
-        <item itemvalue="Application.PersonUtil" />
+        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +216,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680018776816</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Course 9 - Java Collections CI">
+      <created>1680343341523</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680343341523</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Additional CI refactored some folders and packages">
+      <created>1680343401382</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680343401382</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Additional CI refactored some folders and packages">
+      <created>1680343418083</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680343418083</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Homework curs9">
+      <created>1680585650405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680585650405</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +270,10 @@
     <MESSAGE value="Corse 8 - updated code for DB Admin" />
     <MESSAGE value="Corse 8 - updated xml file" />
     <MESSAGE value="Corse 8 - updated xml file &amp; sololearn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corse 8 - updated xml file &amp; sololearn" />
+    <MESSAGE value="Course 9 - Java Collections CI" />
+    <MESSAGE value="Additional CI refactored some folders and packages" />
+    <MESSAGE value="Homework curs9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework curs9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,6 +287,11 @@
           <url>file://$PROJECT_DIR$/src/org/fasttrackit/curs8/homework/exercise2/EmployeeMain.java</url>
           <line>2</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/fasttrackit/curs9/QueueExample.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/org/fasttrackit/curs8/inheritance/BikeMain.java</url>
