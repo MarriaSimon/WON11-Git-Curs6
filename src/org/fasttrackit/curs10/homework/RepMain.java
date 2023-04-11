@@ -24,10 +24,11 @@ public class RepMain {
             int grade = Integer.parseInt(parts[2]);
             StudentGrade sg = new StudentGrade(name, discipline, grade);
             studentGrades.add(sg);
-            br.close();
-        }
+            // br.close();
 
-        ReportGenerator reportGenerator = new ReportGenerator(studentGrades);
-        reportGenerator.generateReport();
+
+            ReportGenerator reportGenerator = new ReportGenerator(studentGrades);
+            reportGenerator.generateReport();
+        }
     }
 }
