@@ -5,10 +5,13 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class ReadingFromFile {
-    public static void main(String[] args) throws IOException {
+   // public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws FileNotFoundException{
       //  readOneLine();
-        readNumbers();
+        //readNumbers();
        // readWithBufferedReader();
+       // readOneLine();
+        readFullFile();
     }
     private static void readWithBufferedReader() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new FileReader("files/content.txt"));
