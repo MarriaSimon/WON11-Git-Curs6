@@ -4,7 +4,6 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class ReportGenerator {
@@ -15,21 +14,20 @@ public class ReportGenerator {
         this.studentGrades = studentGrades;
     }
 
+
     public void generateReport() throws IOException {
 
         BufferedWriter writer = new BufferedWriter(new FileWriter("files/grade-report.data", true));
-        writer.newLine();
-        writer.close();
 
-        StudentGrade maxGrade = null ;
+
+        StudentGrade maxGrade = null;
         for (StudentGrade studGrade : studentGrades) {
             if (maxGrade == null || studGrade.getGrade() > maxGrade.getGrade()) {
                 maxGrade = studGrade;
             }
         }
-        System.out.println("Highest grade: " + maxGrade.getName() + " " + (List<StudentGrade>) maxGrade);
-
-
+        writer.write("Highest grade: " + maxGrade.getName() + " " + (List<StudentGrade>) maxGrade);
+        writer.newLine();
 
 
         //nota medie
@@ -39,7 +37,7 @@ public class ReportGenerator {
             sum += studentGrade.getGrade();
         }
         int average = sum / studentGrades.size();
-        System.out.println("Average grade: " + average);
+        writer.write("Average grade: " + average);
 
 
         // lowest grade
@@ -49,7 +47,9 @@ public class ReportGenerator {
                 minGrade = studentGrade;
             }
         }
-        System.out.println("Lowest grade: " + minGrade.getName() + " " + minGrade.getGrade());
+        writer.write("Lowest grade: " + minGrade.getName() + " " + minGrade.getGrade());
+        writer.flush();
+        writer.close();
 
     }
 
