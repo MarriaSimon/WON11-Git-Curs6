@@ -3,7 +3,6 @@ package org.fasttrackit.curs10.homework;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Stream;
 
 
 public class Classroom {
@@ -15,10 +14,16 @@ public class Classroom {
 
     public List<Integer> getGradesForDiscipline(String discipline) {
         List<Integer> grades = new ArrayList<>();
+        boolean found = false;
         for (StudentGrade studGrade : studentGrades) {
             if (studGrade.getDiscipline().equals(discipline)) {
+                found = true;
                 grades.add(studGrade.getGrade());
             }
+
+        }
+        if (!found) {
+            System.out.println("Not a valid discipline. Please check.");
         }
         return grades;
 
@@ -31,11 +36,12 @@ public class Classroom {
                 grades.add(studGrade.getGrade());
             }
             /*
-            de ce la print imi merge mereu doar pe else?
+            // de ce la print imi merge mereu doar pe else?
             else {
                 System.out.println("Not a valid name. Please check.");
-                return null;
+                //return null;
             }
+            //
              */
         }
         return grades;
@@ -54,7 +60,7 @@ public class Classroom {
         return Collections.singletonList(maxGrade);
     }
 
-    public List<StudentGrade> getMaxGrade2(){
+    public List<StudentGrade> getMaxGrade2() {
         StudentGrade maxGrade = null;
         for (StudentGrade studGrade : studentGrades) {
             if (maxGrade == null || studGrade.getGrade() > maxGrade.getGrade()) {
@@ -68,16 +74,17 @@ public class Classroom {
     public Integer getAverageGrade(String discipline) {
         List<Integer> grades = getGradesForDiscipline(discipline);
         int aveGr = 0;
-        for(int grade:grades){
+        for (int grade : grades) {
             aveGr += grade;
         }
         return aveGr / grades.size();
     }
-    public List<StudentGrade> getWorstGrade(String discipline){
+
+    public List<StudentGrade> getWorstGrade(String discipline) {
         StudentGrade worstGrade = null;
-        for(StudentGrade studGrade : studentGrades){
-            if (studGrade.getDiscipline().equals(discipline)){
-                if(worstGrade == null || (studGrade.getGrade() < worstGrade.getGrade())){
+        for (StudentGrade studGrade : studentGrades) {
+            if (studGrade.getDiscipline().equals(discipline)) {
+                if (worstGrade == null || (studGrade.getGrade() < worstGrade.getGrade())) {
                     worstGrade = studGrade;
                 }
             }

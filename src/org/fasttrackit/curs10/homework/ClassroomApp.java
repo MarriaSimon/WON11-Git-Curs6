@@ -6,8 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static org.fasttrackit.curs10.homework.StudentApp.readGradesFile;
-
 public class ClassroomApp {
     public static void main(String[] args) throws FileNotFoundException {
         List<StudentGrade> students = new ArrayList<>();
@@ -20,10 +18,11 @@ public class ClassroomApp {
             int grade = Integer.parseInt(tokens[2]);
             StudentGrade studGrade = new StudentGrade(name, discipline, grade);
             students.add(studGrade);
-            System.out.println(discipline);
+            //System.out.println(discipline);
         }
         Classroom classroom = new Classroom(students);
-        System.out.println(classroom.getGradesForDiscipline("Computer Science"));
+        //System.out.println(classroom.getGradesForDiscipline("Computer Science"));
+        System.out.println(classroom.getGradesForDiscipline("Physics"));
         System.out.println(classroom.getGradesForStudent("Eilert Mechteld"));
         System.out.println(classroom.getMaxGrade("Physics"));
         System.out.println(classroom.getMaxGrade2());
