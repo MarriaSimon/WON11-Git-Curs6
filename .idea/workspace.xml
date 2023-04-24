@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8a9855-53bb-49db-8397-bd468c3d9636" name="Changes" comment="curs 10 update">
-      <change afterPath="$PROJECT_DIR$/files/grade-report.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/grade-reports.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/grade-reports.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/fasttrackit/curs10/homework/RepMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fasttrackit/curs10/homework/RepMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="6d8a9855-53bb-49db-8397-bd468c3d9636" name="Changes" comment="curs 11 homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -55,13 +53,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RepMain">
-    <configuration name="ClassroomApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs10.homework.ClassroomApp" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.fasttrackit.Curs11.homework.exercise2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EmployeeUtil">
+    <configuration name="DaySchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Curs11.homework.exercise4.DaySchedule" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs10.homework.*" />
+          <option name="PATTERN" value="org.fasttrackit.Curs11.homework.exercise4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs10.homework.RepMain" />
+    <configuration name="EmployeeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Curs11.homework.exercise2and3.EmployeeUtil" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs10.homework.*" />
+          <option name="PATTERN" value="org.fasttrackit.Curs11.homework.exercise2and3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReportGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs10.homework.ReportGenerator" />
+    <configuration name="MapExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Curs11.Maps.MapExercise" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs10.homework.*" />
+          <option name="PATTERN" value="org.fasttrackit.Curs11.Maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs10.homework.StudentApp" />
+    <configuration name="PersonalUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Curs11.homework.exercise2and3.PersonalUtil" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs10.homework.*" />
+          <option name="PATTERN" value="org.fasttrackit.Curs11.homework.exercise2and3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WritingToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs10.files.WritingToFile" />
+    <configuration name="StudentMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Curs11.homework.exercise1.StudentMap" />
       <module name="FirstInteliJProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs10.files.*" />
+          <option name="PATTERN" value="org.fasttrackit.Curs11.homework.exercise1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RepMain" />
-        <item itemvalue="Application.WritingToFile" />
-        <item itemvalue="Application.ReportGenerator" />
-        <item itemvalue="Application.ClassroomApp" />
-        <item itemvalue="Application.StudentApp" />
+        <item itemvalue="Application.EmployeeUtil" />
+        <item itemvalue="Application.StudentMap" />
+        <item itemvalue="Application.PersonalUtil" />
+        <item itemvalue="Application.DaySchedule" />
+        <item itemvalue="Application.MapExercise" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681205368223</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="curs 11">
+      <created>1681811362263</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681811362263</updated>
+    </task>
+    <task id="LOCAL-00019" summary="curs 11 homework">
+      <created>1681811749601</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681811749601</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,7 +308,9 @@
     <MESSAGE value="course 10 ci" />
     <MESSAGE value="homework c10 ci" />
     <MESSAGE value="curs 10 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="curs 10 update" />
+    <MESSAGE value="curs 11" />
+    <MESSAGE value="curs 11 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs 11 homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -313,7 +332,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/fasttrackit/curs10/homework/Classroom.java</url>
-          <line>53</line>
+          <line>59</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
@@ -351,6 +370,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/fasttrackit/Curs11/Maps/MapExercise.java</url>
+          <line>5</line>
+          <properties class="org.fasttrackit.Curs11.Maps.MapExercise" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/fasttrackit/Curs11/homework/exercise2and3/PersMain.java</url>
+          <line>7</line>
+          <properties class="org.fasttrackit.Curs11.homework.exercise2.PersMain">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
