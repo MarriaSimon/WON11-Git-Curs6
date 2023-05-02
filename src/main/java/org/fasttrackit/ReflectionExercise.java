@@ -16,7 +16,10 @@ public class ReflectionExercise {
         System.out.println(" ");
 
         Field children = PersonLombok.class.getDeclaredField("children");
-        PopulateChild annotation = children.getAnnotations(PopulateChild.class);
+        PopulateChild annotation = children.getAnnotation(PopulateChild.class);
+        children.setAccessible(true);
+        // children.set(person, annotation.children());
+        System.out.println("");
 
         children.setAccessible(true);
 
