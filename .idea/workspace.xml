@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="450160c0-297e-4e78-8ab2-80a693c6743c" name="Changes" comment="course 13 homework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/QuotesReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PersonLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PersonLombok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PopulateChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PopulateChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ReflectionExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ReflectionExercise.java" afterDir="false" />
-    </list>
+    <list default="true" id="450160c0-297e-4e78-8ab2-80a693c6743c" name="Changes" comment="course 13 homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +19,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683095183696</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="course 13 homework">
+      <created>1683095305505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683095305505</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +193,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/QuoteMain.java</url>
-          <line>13</line>
+          <line>14</line>
           <properties class="org.fasttrackit.homework.QuoteMain" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

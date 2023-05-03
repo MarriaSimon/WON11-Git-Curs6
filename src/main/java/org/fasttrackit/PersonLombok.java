@@ -17,14 +17,14 @@ public class PersonLombok {
     private final boolean isMarried;
     private final String company;
 
-    @PopulateChild(children = 3)
+    @PopulateChild
     private int children = 0;
     @Getter(AccessLevel.NONE)
     @Setter(AccessLevel.NONE)
-    private boolean youWillNeverSee =  false;
+    private boolean youWillNeverSee = false;
 
-   @MyFirstAnnotation
-    public void doSomething(){
+    @MyFirstAnnotation
+    public void doSomething() {
 
     }
 }
