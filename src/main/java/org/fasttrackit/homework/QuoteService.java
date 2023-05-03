@@ -19,6 +19,7 @@ public class QuoteService {
     }
 
 
+
     public List<String> getAllQuotes() throws IOException {
 //        List<QuotesEx> quotes = new ArrayList<>();
 //        InputStream inputStream = Main.class.getClassLoader().getResourceAsStream("quotes.txt");

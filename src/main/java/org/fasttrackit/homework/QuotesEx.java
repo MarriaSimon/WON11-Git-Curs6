@@ -17,6 +17,7 @@ public class QuotesEx {
 
     }
 
+
     public int getId() {
         return id;
     }

@@ -11,6 +11,7 @@ import static org.fasttrackit.homework.QuotesReading.readFullFile;
 
 public class QuoteMain {
 
+
     public static void main(String[] args) throws IOException {
 
 
