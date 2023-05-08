@@ -1,0 +1,102 @@
+Index: src/main/java/org/fasttrackit/PopulateChild.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.fasttrackit;\r\n\r\nimport java.lang.annotation.Retention;\r\nimport java.lang.annotation.RetentionPolicy;\r\nimport java.util.List;\r\n\r\n@Retention(RetentionPolicy.RUNTIME)\r\npublic @interface PopulateChild {\r\n    int children() default 0;\r\n}\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/fasttrackit/PopulateChild.java b/src/main/java/org/fasttrackit/PopulateChild.java
+--- a/src/main/java/org/fasttrackit/PopulateChild.java	(revision 8647e6891b6a7dc5d0072940dae9b2411c3735c5)
++++ b/src/main/java/org/fasttrackit/PopulateChild.java	(date 1683038582388)
+@@ -7,6 +7,8 @@
+ @Retention(RetentionPolicy.RUNTIME)
+ public @interface PopulateChild {
+     int children() default 0;
++
++    //int children();
+ }
+ 
+ 
+Index: src/main/java/org/fasttrackit/PersonLombok.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.fasttrackit;\r\n\r\nimport lombok.*;\r\n\r\nimport java.util.List;\r\n\r\n\r\n@Data\r\n@MyFirstAnnotation\r\n\r\npublic class PersonLombok {\r\n    @MyFirstAnnotation(flag = true)\r\n    private final String name;\r\n    private final int age;\r\n    private final String country;\r\n\r\n    private final boolean isMarried;\r\n    private final String company;\r\n\r\n    @PopulateChild(children = 3)\r\n    private int children = 0;\r\n    @Getter(AccessLevel.NONE)\r\n    @Setter(AccessLevel.NONE)\r\n    private boolean youWillNeverSee =  false;\r\n\r\n   @MyFirstAnnotation\r\n    public void doSomething(){\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/fasttrackit/PersonLombok.java b/src/main/java/org/fasttrackit/PersonLombok.java
+--- a/src/main/java/org/fasttrackit/PersonLombok.java	(revision 8647e6891b6a7dc5d0072940dae9b2411c3735c5)
++++ b/src/main/java/org/fasttrackit/PersonLombok.java	(date 1683088546986)
+@@ -17,7 +17,7 @@
+     private final boolean isMarried;
+     private final String company;
+ 
+-    @PopulateChild(children = 3)
++    @PopulateChild(children = 4)
+     private int children = 0;
+     @Getter(AccessLevel.NONE)
+     @Setter(AccessLevel.NONE)
+Index: src/main/java/org/fasttrackit/ReflectionExercise.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.fasttrackit;\r\n\r\nimport java.lang.annotation.Annotation;\r\nimport java.lang.reflect.Field;\r\n\r\npublic class ReflectionExercise {\r\n    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {\r\n        PersonLombok person = new PersonLombok(\"John\", 33, \"Romania\", false, \"FastTrack\");\r\n        person.getAge();\r\n        Field field = PersonLombok.class.getDeclaredField(\"youWillNeverSee\");\r\n        field.setAccessible(true);\r\n        field.set(person, true);\r\n        System.out.println(\"test\");\r\n\r\n        Annotation[] annotations = field.getAnnotations();\r\n        System.out.println(\" \");\r\n\r\n        Field children = PersonLombok.class.getDeclaredField(\"children\");\r\n        PopulateChild annotation = children.getAnnotation(PopulateChild.class);\r\n        children.setAccessible(true);\r\n        // children.set(person, annotation.children());\r\n        System.out.println(\"\");\r\n\r\n        children.setAccessible(true);\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/fasttrackit/ReflectionExercise.java b/src/main/java/org/fasttrackit/ReflectionExercise.java
+--- a/src/main/java/org/fasttrackit/ReflectionExercise.java	(revision 8647e6891b6a7dc5d0072940dae9b2411c3735c5)
++++ b/src/main/java/org/fasttrackit/ReflectionExercise.java	(date 1683088828300)
+@@ -18,7 +18,7 @@
+         Field children = PersonLombok.class.getDeclaredField("children");
+         PopulateChild annotation = children.getAnnotation(PopulateChild.class);
+         children.setAccessible(true);
+-        // children.set(person, annotation.children());
++        children.set(person, annotation.children());
+         System.out.println("");
+ 
+         children.setAccessible(true);
+Index: src/main/java/org/fasttrackit/homework/QuotesReading.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/fasttrackit/homework/QuotesReading.java b/src/main/java/org/fasttrackit/homework/QuotesReading.java
+new file mode 100644
+--- /dev/null	(date 1683088425944)
++++ b/src/main/java/org/fasttrackit/homework/QuotesReading.java	(date 1683088425944)
+@@ -0,0 +1,35 @@
++package org.fasttrackit.homework;
++
++import java.io.IOException;
++import java.nio.file.Files;
++import java.nio.file.Path;
++import java.nio.file.Paths;
++
++//import static com.sun.org.apache.xerces.internal.impl.xpath.regex.Token.tokens;
++
++public class QuotesReading {
++
++    public static void readFullFile() throws IOException {
++        Path path = Paths.get("quotes2.txt");
++        String quotesFile = new String(Files.readAllBytes(Path.of("src/test/resources/quotes2.txt")));
++
++        while (quotesFile != null) {
++            String[] parts = quotesFile.split("~");
++            for (String part : parts) {
++                // String author = parts[0];
++                //System.out.println(author);
++                //String authorName = parts[0];
++                //String authorQuote = parts[1];
++
++                // System.out.println(part);
++                System.out.println("author name " + parts[0]);
++                System.out.println("quote " + parts[1]);
++
++                //  System.out.println(authorName);
++                //   System.out.println(authorQuote);
++            }
++
++        }
++
++    }
++}
