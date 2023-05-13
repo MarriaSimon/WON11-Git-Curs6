@@ -2,6 +2,7 @@ package org.fasttrackit.course15.homework.recursivity;
 
 public class RecursiveEx {
     public static void main(String[] args) {
+
         //sum of first n integer numbers
         int n = 75;
         int sum = sumOfIntegerNumbers(n);
