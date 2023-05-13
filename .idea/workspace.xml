@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="450160c0-297e-4e78-8ab2-80a693c6743c" name="Changes" comment="course 15 homework Recursivity exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/GlassBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/NewBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/NumberBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/OldBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/optional/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/recursivity/InfiniteLoopMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/recursivity/RecursionExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/course15/homework/recursivity/RecursiveExTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_9_32_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_9_32_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="450160c0-297e-4e78-8ab2-80a693c6743c" name="Changes" comment="course 15 homework Recursivity exercise" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683996367407</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="course 15 homework Recursivity exercise">
+      <created>1683996504100</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683996504100</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
