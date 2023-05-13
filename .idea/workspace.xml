@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="450160c0-297e-4e78-8ab2-80a693c6743c" name="Changes" comment="course 13 homework" />
+    <list default="true" id="450160c0-297e-4e78-8ab2-80a693c6743c" name="Changes" comment="course 15 homework Recursivity exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/GlassBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/NewBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/NumberBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/OldBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/generics/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/optional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/recursivity/InfiniteLoopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/recursivity/RecursionExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/course15/homework/recursivity/RecursiveExTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_9_32_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_9_32_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -58,13 +74,13 @@
       <recent name="C:\Users\maria\Desktop\WON11\FirstMavenProject\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.fasttrackit.homework.QuoteMain">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Main" />
+  <component name="RunManager" selected="Application.RecursiveEx">
+    <configuration name="RecursiveEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.course15.homework.recursivity.RecursiveEx" />
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="PATTERN" value="org.fasttrackit.course15.homework.recursivity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuoteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course13.homework.QuoteMain" />
+    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.course15.homework.exercise.ShopMain" />
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course13.homework.*" />
+          <option name="PATTERN" value="org.fasttrackit.course15.homework.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.ReflectionExercise" />
+    <configuration name="org.fasttrackit.course15.optional.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.course15.optional.Main" />
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="PATTERN" value="org.fasttrackit.course15.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,25 +114,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.fasttrackit.homework.QuoteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.homework.QuoteMain" />
+    <configuration name="RecursiveExTest.testSumOfEvenNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.homework.*" />
+          <option name="PATTERN" value="org.fasttrackit.course15.homework.recursivity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.course15.homework.recursivity" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.course15.homework.recursivity.RecursiveExTest" />
+      <option name="METHOD_NAME" value="testSumOfEvenNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveExTest.testSumOfIntegerNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.course15.homework.recursivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.course15.homework.recursivity" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.course15.homework.recursivity.RecursiveExTest" />
+      <option name="METHOD_NAME" value="testSumOfIntegerNumbers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.fasttrackit.homework.QuoteMain" />
-        <item itemvalue="Application.QuoteMain" />
-        <item itemvalue="Application.ReflectionExercise" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RecursiveEx" />
+        <item itemvalue="JUnit.RecursiveExTest.testSumOfEvenNumbers" />
+        <item itemvalue="JUnit.RecursiveExTest.testSumOfIntegerNumbers" />
+        <item itemvalue="Application.ShopMain" />
+        <item itemvalue="Application.org.fasttrackit.course15.optional.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683095305505</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="course 15 homework exercise">
+      <created>1683996123347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683996123347</updated>
+    </task>
+    <task id="LOCAL-00007" summary="course 15 homework Recursivity exercise">
+      <created>1683996367407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683996367407</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,7 +231,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="course 13 maven" />
     <MESSAGE value="course 13 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="course 13 homework" />
+    <MESSAGE value="course 15 homework exercise" />
+    <MESSAGE value="course 15 homework Recursivity exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="course 15 homework Recursivity exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -194,11 +246,20 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/QuoteMain.java</url>
           <line>14</line>
-          <properties class="org.fasttrackit.homework.QuoteMain" method="main">
+          <properties class="org.fasttrackit.homework.QuoteMain">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fasttrackit/course15/homework/recursivity/RecursiveEx.java</url>
+          <line>3</line>
+          <properties class="org.fasttrackit.course15.homework.recursivity.RecursiveEx" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
