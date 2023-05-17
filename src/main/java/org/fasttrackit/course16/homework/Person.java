@@ -1,6 +1,6 @@
 package org.fasttrackit.course16.homework;
 
-public record Person(String firstName, String lastName, int age, String city ) {
+public record Person(String firstName, String lastName, int age, String city) {
     @Override
     public String firstName() {
         return firstName;
